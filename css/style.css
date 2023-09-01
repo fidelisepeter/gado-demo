@@ -893,7 +893,7 @@ Hero Banner Area
     bottom: 143px;
   }
 }
-.slider__controls__wrap .swiper-pagination {
+.slider-controls-wrap .swiper-pagination {
     background-color: #01155a;
     height: 80px;
     padding-top: 29px;
@@ -903,7 +903,7 @@ Hero Banner Area
     border-top-right-radius: 100%;
     margin-bottom: -9px;
 }
-.slider__controls__wrap .swiper-pagination::before {
+.slider-controls-wrap .swiper-pagination::before {
   content: "-";
   display: block;
   border-top-color: #fcfbff;
@@ -917,7 +917,7 @@ Hero Banner Area
   padding-top: 29px;
   margin-top: -50px;
 }
-.slider__controls__wrap.slider__controls__arrows .arrow-btn {
+.slider-controls-wrap.slider__controls__arrows .arrow-btn {
   border: 1px solid var(--secondaryColor);
   width: 50px;
   height: 50px;
@@ -926,17 +926,17 @@ Hero Banner Area
   transform: translateY(-50%);
   margin-top: 0;
 }
-.slider__controls__wrap.slider__controls__arrows .arrow-btn:after {
+.slider-controls-wrap.slider__controls__arrows .arrow-btn:after {
   font-size: 20px;
   font-weight: 700;
   color: var(--secondaryColor);
   transition: var(--transition);
 }
-.slider__controls__wrap.slider__controls__arrows .arrow-btn:hover {
+.slider-controls-wrap.slider__controls__arrows .arrow-btn:hover {
   border: 1px solid var(--secondaryColor);
   background-color: var(--secondaryColor);
 }
-.slider__controls__wrap.slider__controls__arrows .arrow-btn:hover:after {
+.slider-controls-wrap.slider__controls__arrows .arrow-btn:hover:after {
   color: var(--whiteColor);
 }
 

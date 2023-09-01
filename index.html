@@ -21,6 +21,28 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css?86886">
     <style>
+        .herobannerarea.hero-banner-area-sliders .slider-controls-wrap.slider-controls-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background: var(--whiteColor);
+        }
+
+        .herobannerarea.hero-banner-area-sliders .slider-controls-wrap.slider-controls-pagination .swiper-pagination-bullet {
+            outline: 2px solid var(--whiteColor);
+        }
+
+        .slider-controls-wrap.slider-controls-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            outline-color: var(--primaryColor);
+            background: var(--primaryColor);
+        }
+
+        .slider-controls-wrap.slider-controls-pagination .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            outline-offset: 2px;
+            background: transparent;
+            outline: 2px solid var(--blackColor);
+            margin: 0px 8px;
+        }
+
         .header-menu .header-link {
             color: var(--primaryColor) !important;
             border-bottom-color: transparent;
@@ -343,7 +365,7 @@
         <!-- theme fixed shadow -->
 
         <!-- herobannerarea__section__start -->
-        <div class="herobannerarea herobannerarea__2 herobannerarea__machine__learning fit-device"
+        <div class="herobannerarea herobannerarea__2 hero-banner-area-sliders fit-device"
             style="padding: 0px !important;">
 
             <div class="swiper ai__slider">
@@ -386,7 +408,7 @@
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="hero-content">
@@ -410,7 +432,7 @@
                 </div>
             </div>
 
-            <div class="slider__controls__wrap slider__controls__pagination slider__controls__arrows" style="">
+            <div class="slider-controls-wrap slider-controls-pagination slider__controls__arrows" style="">
 
                 <div class="swiper-button-next arrow-btn" style="border-top-right-radius: 0px;"></div>
                 <div class="swiper-button-prev arrow-btn" style="border-top-left-radius: 0px;"></div>
@@ -998,7 +1020,7 @@
                                     <div>Email - i n f o @ g o d o a t o r n e y s . o r g</div>
 
                                 </div>
-                                
+
                             </div>
 
                         </div>
