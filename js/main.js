@@ -506,6 +506,10 @@ var swiper = new Swiper(".ai__slider", {
     },
     grabCursor: true,
     slidesPerView: 1,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
   });
 
 // Dark to light mode js
